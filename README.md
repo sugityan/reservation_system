@@ -71,28 +71,16 @@ my-app
 
 To run the backend using Docker, build the Docker image and run the container:
 
-1. Navigate to the `backend` directory:
+1. Build the Docker image:
 
    ```
-   cd backend
+   docker-compose up --build
    ```
 
-2. Build the Docker image:
+2. Open your browser and go to `http://localhost:3000` to view the frontend application.
 
-   ```
-   docker build -t my-backend .
-   ```
-
-3. Run the Docker container:
-   ```
-   docker run -p 5000:5000 my-backend
-   ```
+3. The backend API will be available at `http://localhost:5001`.
 
 ## Usage
 
 This application serves as a template for building full-stack applications using Next.js and Python. You can customize the frontend and backend as per your requirements.
-
-## License
-
-This project is licensed under the MIT License.
-# reservation_system
