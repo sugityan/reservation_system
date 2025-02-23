@@ -84,3 +84,4 @@ To run the backend using Docker, build the Docker image and run the container:
 ## Usage
 
 This application serves as a template for building full-stack applications using Next.js and Python. You can customize the frontend and backend as per your requirements.
+# caption_generation
